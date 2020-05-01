@@ -1,3 +1,8 @@
+/**
+ * Copyright (c) 2004, 2020, Yogesh Badgujar and/or its affiliates. 
+ * All rights reserved and PROPRIETARY/CONFIDENTIAL. 
+ * Use is subject to Yogesh Badgujar terms.
+ */
 package java8;
 /**
  * To solve the diamond problem 2 solutions
