@@ -3,7 +3,7 @@
  * All rights reserved and PROPRIETARY/CONFIDENTIAL. 
  * Use is subject to Yogesh Badgujar terms.
  */
-package java8;
+package javarefresh.java8;
 
 /**
  * flatMap using Java 8

@@ -3,7 +3,7 @@
  * All rights reserved and PROPRIETARY/CONFIDENTIAL. 
  * Use is subject to Yogesh Badgujar terms.
  */
-package java8;
+package javarefresh.java8;
 /**
  * To solve the diamond problem 2 solutions
  * Solution 1 - You need to overwrite the methode at your concrete class
