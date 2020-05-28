@@ -64,6 +64,16 @@ public class ThreadSequence {
 			executor3.submit(loopTask);
 		});
 		executor3.shutdown();
+
+		// Solution D - Using Java 8
+		ExecutorService executor4 = Executors.newFixedThreadPool(3);
+		queue.stream().forEach(x -> {
+			Runnable cTask = () -> {
+				System.out.println("Java 8 sequence task is " + x);
+			};
+			executor4.submit(cTask);
+		});
+		executor4.shutdown();
 	}
 
 }
