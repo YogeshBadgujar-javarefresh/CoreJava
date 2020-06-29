@@ -6,9 +6,12 @@
 package javarefresh.logical;
 
 /**
- * Purpose:
+ * Purpose: On particular number, find out max(+ve /-ve) value by putting certain given number.
  *
- * Description:
+ * Description:e.g. Suppose 56 number by placing 5 -> max value will be 565 <br>
+ * 
+ * -556 number by placing 5 -> max value will be -5565
+ * 
  *
  * @author Yogesh Badgujar email me in case any problem -
  *         badgujar.yogesh@gmail.com
