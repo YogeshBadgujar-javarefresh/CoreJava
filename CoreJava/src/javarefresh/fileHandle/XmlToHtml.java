@@ -1,4 +1,4 @@
-package javarefresh.xml;
+package javarefresh.fileHandle;
 
 /**
  * Create the html by using xml and xslt base
@@ -28,6 +28,7 @@ import javax.xml.transform.stream.StreamSource;
 public class XmlToHtml {
 
 	public static void main(String args[]) {
+		//Note - change file path accordingly.
 		Source xml = new StreamSource("/home/user/git/CoreJava/CoreJava/src/xslt/product.xml");
 		Source xslt = new StreamSource("/home/user/git/CoreJava/CoreJava/src/xslt/testXslt.xsl");
 

@@ -1,4 +1,4 @@
-package javarefresh.xml;
+package javarefresh.fileHandle;
 
 /**
  * Get the xml note. 
