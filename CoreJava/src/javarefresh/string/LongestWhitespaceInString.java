@@ -16,7 +16,7 @@ package javarefresh.string;
  *         badgujar.yogesh@gmail.com
  *
  */
-public class FindLongestWhitespaceInString {
+public class LongestWhitespaceInString {
 
 	private int getLongestWhitespaceInString(String str) {
 
@@ -43,7 +43,7 @@ public class FindLongestWhitespaceInString {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		FindLongestWhitespaceInString fl = new FindLongestWhitespaceInString();
+		LongestWhitespaceInString fl = new LongestWhitespaceInString();
 		String str = "I am writting       code   because          I  love coding.  ";
 		int counter = fl.getLongestWhitespaceInString(str);
 		System.out.println("Max space given string is " + counter);
